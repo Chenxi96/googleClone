@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -39,4 +40,33 @@ li {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+.SearchBar {
+    display: flex;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    justify-content: center;
+    padding: 5px 8px 0 14px;
+}
+
+.textarea {
+    margin-top: 6px;
+}
+
+textarea {
+    resize: none;
+    width: 443px;
+    background-color: #202124;
+    border: none;
+    color: #e8eaed;
+    margin: 0 0 8px;
+}
+
+.searchI2 {
+    padding-right: 13px;
+}
+
+.searchI {
+    color: white;
 }
