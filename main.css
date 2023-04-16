@@ -3,11 +3,11 @@
 }
 
 body {
-    background-color: #89ABE3FF;
+    background-color: #202124;
 }
 
 header {
-    background-color: black;
+    background-color: #202124;
     color: white;
     padding: 10px;
 }
@@ -26,4 +26,17 @@ header {
 li {
     display: inline;
     padding: 10px;
+}
+
+.Logo {
+    font-size: 92px;
+    text-align: center;
+    color: white;
+    margin-top: 97px
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
