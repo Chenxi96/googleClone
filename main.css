@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -65,8 +64,12 @@ textarea {
 
 .searchI2 {
     padding-right: 13px;
+    color: white;
+    margin: 5px;
 }
 
 .searchI {
     color: white;
+    margin: 5px;
+    padding: 0px 8px 0px 8px;
 }
